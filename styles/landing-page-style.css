@@ -1,33 +1,73 @@
-.logo-image {
+nav {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
 
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.nav-bar {
+    background-color: #1F2937;
+}
+
+.logo-image {
+    width : 10%;
 }
 
 .nav-link-container {
-
+    
 }
 
 .nav-link {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .page-container {
 
 }
 
-.page-header {
-
+.page-hero {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 2rem;
 }
 
 .sign-up-text {
+    
+}
 
+.hero-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+    width: 80%;
 }
 
 .subtext {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .sign-up-button {
-
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
 }
 
 .sign-up-image {
@@ -35,35 +75,73 @@
 }
 
 .page-content {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
 }
 
 .content-information {
-
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: extra-bold;
 }
 
 .content-image-container {
+    display: flex;
+    flex: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 80%;
+}
 
+.content-image {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .page-quote {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
 }
 
 .quote-text {
-
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
 }
 
 .quote-attribution {
-
+    align-self: flex-end;
+    width: 50%;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
 }
 
 .page-call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 
 .call-to-action-container {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
 }
 
 .call-to-action-text {
